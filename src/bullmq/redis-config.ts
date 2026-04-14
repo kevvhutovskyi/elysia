@@ -1,5 +1,5 @@
 export const redisConfig = {
-    port: 6379,
-    host: 'bun-elysia-app',
+    port: process.env.REDIS_PORT,
+    host: process.env.REDIS_HOST,
     password: '',
 };
