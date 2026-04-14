@@ -7,6 +7,7 @@
       "dependencies": {
         "@bull-board/api": "^6.16.1",
         "@bull-board/elysia": "^6.16.1",
+        "@elysiajs/cors": "^1.4.1",
         "@elysiajs/openapi": "^1.4.14",
         "bullmq": "^5.66.3",
         "elysia": "latest",
@@ -24,6 +25,8 @@
     "@bull-board/elysia": ["@bull-board/elysia@6.16.1", "", { "dependencies": { "@bull-board/api": "6.16.1", "@bull-board/ui": "6.16.1", "ejs": "^3.1.10", "mimeV4": "npm:mime@^4.0.7" }, "peerDependencies": { "elysia": "^1.1.0" } }, "sha512-DXw0Pffv/slfGek/15VXU93rY8TYtAdzICuE064yoCpQVCFY7BaU5S4zsk0e5if/4ov1Vr/PUj1l080gjYpKNA=="],
 
     "@bull-board/ui": ["@bull-board/ui@6.16.1", "", { "dependencies": { "@bull-board/api": "6.16.1" } }, "sha512-h7IPiAcNGNmBOv/7nKqAOvkZz3AlhMxHB9AQWB7MzlGRRP02eT1aRkX1h2AKydgAZn5JQJqDG4DcMpYV+rEE1g=="],
+
+    "@elysiajs/cors": ["@elysiajs/cors@1.4.1", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-lQfad+F3r4mNwsxRKbXyJB8Jg43oAOXjRwn7sKUL6bcOW3KjUqUimTS+woNpO97efpzjtDE0tEjGk9DTw8lqTQ=="],
 
     "@elysiajs/openapi": ["@elysiajs/openapi@1.4.14", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-kWmJWdvP8/LwHwAJXSpz6xFfYUoyUyEPRimEYABuDU1rOnS27Da1u9T2jyU7frOopxKWV/wDfDxMP8z2xdCPJw=="],
 

@@ -8,6 +8,7 @@
   "dependencies": {
     "@bull-board/api": "^6.16.1",
     "@bull-board/elysia": "^6.16.1",
+    "@elysiajs/cors": "^1.4.1",
     "@elysiajs/openapi": "^1.4.14",
     "bullmq": "^5.66.3",
     "elysia": "latest"
