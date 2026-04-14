@@ -8,6 +8,7 @@ ENV NODE_ENV=production
 RUN apt-get update && apt-get install -y \
     curl \
     gnupg \
+    unzip \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Bun
