@@ -15,7 +15,7 @@ async function bootstrap() {
     .use(testApi)
     .use(openapi());
 
-  app.listen(3000);
+  app.listen(80);
 
   console.log(
     `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
